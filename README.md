@@ -1,2 +1,11 @@
 # flutter-app--osmetics-shop
 Several screens of the Flutter app for a сosmetics shop.
+
+Screenshots:
+![Main screen 1](https://github.com/yrep/flutter-app-cosmetics-shop/tree/main/screenshots/01_main_screen.png)
+
+![Main screen 2](https://github.com/yrep/flutter-app-cosmetics-shop/tree/main/screenshots/02_main_screen.png)
+
+![Catalog](https://github.com/yrep/flutter-app-cosmetics-shop/tree/main/screenshots/03_catalog.png)
+
+![Product listing](https://github.com/yrep/flutter-app-cosmetics-shop/tree/main/screenshots/04_listing.png)
