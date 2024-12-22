@@ -121,15 +121,16 @@ class _FiltersScreenState extends State<FiltersScreen> {
               )
           ),
           Spacer(),
-          Center(
-            child: CustomButtonBuilder(
-              text: "Применить фильтры",
-              onPressed: () =>
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) =>
-                          ProductListingScreen(
+            Center(
+              child: SafeArea(
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                    child: CustomButtonBuilder(
+                      text: "Применить фильтры",
+                      onPressed: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => ProductListingScreen(
                             categoryTitle: 'Отобранные средства',
                             productFilters: ProductFilters(
                               sorting: _selectedSorting,
@@ -140,27 +141,30 @@ class _FiltersScreenState extends State<FiltersScreen> {
                               productLine: _selectedProductLine,
                             ),
                           ),
-                    ),
-                  ),
-            )
-                .setCornerRadius(6)
-                .setWidth(118)
-                .setHeight(40)
-                .setFillColor(Color(0xFF2B2B2B))
-                .setFont(
-              TextStyle(
-                color: Colors.white,
-                fontSize: 12,
-                fontFamily: 'Raleway',
-                fontWeight: FontWeight.w600,
-                height: 1.33,
+                        ),
+                      ),
+                    )
+                        .setCornerRadius(9)
+                        .setWidth(double.infinity)
+                        .setHeight(56)
+                        .setFillColor(Color(0xFF2B2B2B))
+                        .setFont(
+                          TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                            fontFamily: 'Raleway',
+                            fontWeight: FontWeight.w600,
+                            height: 1.16,
+                            letterSpacing: 0.16,
+                          ),
+                        )
+                        .setTextPadding(EdgeInsets.all(10))
+                        .build()
+                        .buildButton(),
+                  )
               ),
-            )
-                .setTextPadding(EdgeInsets.all(10))
-                .build()
-                .buildButton(),
-          ),
-        ],
+            ),
+          ],
       )
     );
   }
