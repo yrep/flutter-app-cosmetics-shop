@@ -1,0 +1,199 @@
+{
+  "heroSlides": [
+    {
+      "id": 1,
+      "title": "Скидка -15%",
+      "text": "Сыворотка HA EYE & NECK SERUM",
+      "backgroundImage": "assets/images/hero_01.png",
+      "buttonText": "Перейти к акции",
+      "buttonLink": ""
+    },
+    {
+      "id": 2,
+      "title": "5 средств",
+      "text": "для ухода за сухой кожей зимой",
+      "backgroundImage": "assets/images/hero_02.png",
+      "buttonText": "К разделу",
+      "buttonLink": ""
+    },
+    {
+      "id": 3,
+      "title": "Мужской уход",
+      "text": "Для чувствительной и проблемной кожи",
+      "backgroundImage": "assets/images/hero_03.png",
+      "buttonText": "К разделу",
+      "buttonLink": ""
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "title": "Наборы",
+      "preview": ""
+    },
+    {
+      "id": 2,
+      "title": "Для лица",
+      "preview": ""
+    },
+    {
+      "id": 3,
+      "title": "Для глаз",
+      "preview": ""
+    },
+    {
+      "id": 4,
+      "title": "Для тела",
+      "preview": ""
+    },
+    {
+      "id": 5,
+      "title": "Умывание",
+      "preview": ""
+    }
+  ],
+  "catalog": [
+    {
+      "id": "purpose",
+      "title": "Назначение",
+      "link": "",
+      "icon": "",
+      "subcategories": ["Для очищения", "Для увлажнения", "Для питания", "Для омоложения"]
+    },
+    {
+      "id": "productType",
+      "title": "Тип средства",
+      "link": "",
+      "icon": "",
+      "subcategories": ["Сыворотка", "Тоник", "Крем", "Осветляющая маска"]
+    },
+    {
+      "id": "skinType",
+      "title": "Тип кожи",
+      "link": "",
+      "icon": "",
+      "subcategories": ["Жирная", "Комбинированная", "Нормальная", "Сухая", "Любой тип"]
+    },
+    {
+      "id": "cosmeticsLine",
+      "title": "Линия косметики",
+      "link": "",
+      "icon": "",
+      "subcategories": ["UNSTRESS", "MUSE", "FOREVER YOUNG", "ILLUSTRIOUS"]
+    },
+    {
+      "id": "cosmeticsSets",
+      "title": "Наборы",
+      "link": "",
+      "icon": "",
+      "subcategories": []
+    },
+    {
+      "id": "promotions",
+      "title": "Акции",
+      "link": "",
+      "icon": "",
+      "subcategories": []
+    },
+    {
+      "id": "cosmetologistConsult",
+      "title": "Консультация с косметологом",
+      "link": "",
+      "icon": "",
+      "subcategories": []
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "type": "Сыворотка",
+      "skinType": "Нормальная",
+      "skinProblem": "Раздражение",
+      "effect": "Для омоложения",
+      "title": "Unstress Total Serenity Serum",
+      "description": "",
+      "price": 10195,
+      "pricePromo": -1,
+      "preview": "",
+      "promoText": "",
+      "cosmeticsLine": "UNSTRESS",
+      "popularity": 134
+    },
+    {
+      "id": 2,
+      "type": "Тоник",
+      "skinType": "Сухая",
+      "skinProblem": "Шелушение",
+      "effect": "Для омоложения",
+      "title": "Unstress Revitalizing Toner",
+      "description": "",
+      "price": 3095,
+      "pricePromo": -1,
+      "preview": "",
+      "promoText": "",
+      "cosmeticsLine": "UNSTRESS",
+      "popularity": 436
+    },
+    {
+      "id": 3,
+      "type": "Сыворотка",
+      "skinType": "Жирная",
+      "skinProblem": "Акне",
+      "effect": "Для увлажнения",
+      "title": "Muse Serum Supreme",
+      "description": "",
+      "price": 10195,
+      "pricePromo": 10195,
+      "preview": "",
+      "promoText": "",
+      "cosmeticsLine": "MUSE",
+      "popularity": 623
+    },
+    {
+      "id": 4,
+      "type": "Крем",
+      "skinType": "Сухая",
+      "skinProblem": "Морщины",
+      "effect": "Для питания",
+      "title": "Unstress Revitalizing Toner",
+      "description": "",
+      "price": 3195,
+      "pricePromo": 1595,
+      "preview": "",
+      "promoText": "1+1",
+      "cosmeticsLine": "MUSE",
+      "popularity": 87
+    },
+    {
+      "id": 5,
+      "type": "Сыворотка",
+      "skinType": "Жирная",
+      "skinProblem": "Акне",
+      "effect": "Для очищения",
+      "title": "Forever Young- Total Renewal Serum",
+      "description": "",
+      "price": 10195,
+      "pricePromo": -1,
+      "preview": "",
+      "promoText": "",
+      "cosmeticsLine": "FOREVER YOUNG",
+      "popularity": 112
+    },
+    {
+      "id": 6,
+      "type": "Осветляющая маска",
+      "skinType": "Нормальная",
+      "skinProblem": "Морщины",
+      "effect": "Для питания",
+      "title": "Illustious Mask",
+      "description": "",
+      "price": 1595,
+      "pricePromo": -1,
+      "preview": "",
+      "promoText": "",
+      "cosmeticsLine": "ILLUSTRIOUS",
+      "popularity": 34
+    }
+  ],
+  "effects": ["Для очищения", "Для увлажнения", "Для питания", "Для омоложения"]
+}
